@@ -6,13 +6,13 @@
       :class="activeClass"
     >
       <a href="#" @click.prevent="activeTab = 'tab1'"
-         :class="[activeTab === 'tab1' ? 'bg-[#81E6D9] text-[#fff]': '']"
+         :class="[activeTab === 'tab1' ? 'bg-[#81E6D9] !text-[#fff]': '']"
          class="rounded-[12px] rounded-tr-none rounded-br-none border border-[#CBD5E0] font-lato text-[14px] leading-[17px] w-[calc(50vw-20px)] pt-[12px] pb-[12px] text-center flex-shrink-0 text-[#319795]">Arbeitnehmer</a>
       <a href="#" @click.prevent="activeTab = 'tab2'"
-         :class="[activeTab === 'tab2' ? 'bg-[#81E6D9] text-[#fff]': '']"
+         :class="[activeTab === 'tab2' ? 'bg-[#81E6D9] !text-[#fff]': '']"
          class="rounded-[12px] rounded-r-none rounded-l-none border border-[#CBD5E0] font-lato text-[14px] leading-[17px] w-[calc(50vw-20px)] pt-[12px] pb-[12px] text-center flex-shrink-0 text-[#319795]">Arbeitgeber</a>
       <a href="#" @click.prevent="activeTab = 'tab3'"
-         :class="[activeTab === 'tab3' ? 'bg-[#81E6D9] text-[#fff]': '']"
+         :class="[activeTab === 'tab3' ? 'bg-[#81E6D9] !text-[#fff]': '']"
          class="rounded-[12px] rounded-tl-none rounded-bl-none border border-[#CBD5E0] font-lato text-[14px] leading-[17px] w-[calc(50vw-20px)] pt-[12px] pb-[12px] text-center flex-shrink-0 text-[#319795]">Temporärbüro</a>
     </section>
     <transition-group name="fade">
